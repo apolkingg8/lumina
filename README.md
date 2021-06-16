@@ -60,4 +60,13 @@ Following folders are auto generated and should not in git.
 * `/build` Electron builder output
 * `/packed` Webpack dist
 
+## Log and Error handling
+
+Some simple rules here: 
+
+* Every file is a (and contain only one) module.
+* Every function I/O/throw in the modules should be logged.
+
+There is a [simple example here](/common/example.ts). All the logs would be saved in the [BigQuery]() storage, so we can query and debug them without customer's help.
+
 ## Todo
