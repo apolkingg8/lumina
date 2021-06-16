@@ -42,6 +42,9 @@ Sub version means user can reload the render-side js code to update, without dow
   
 So, the version number looks like: `2020.1.3`, `2021.4.12`, etc.
 
+### Git
+Normal git rule, `master` and `dev` branch, fork a feature branch and rebase it back. We use [gitmoji](https://gitmoji.dev) for better commit log 🎃
+
 ## Structure
 You can find the document in each folder.
 
