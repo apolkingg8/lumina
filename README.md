@@ -81,6 +81,7 @@ Why I choose these stacks.
 `React-Native-Windows/OSX` is not good enough, `PWA` can not have native lib access, and other native solution like `Qt` is hard to build modern UI. 
 * `TypeScript` We need strong type support to build a long-term project. It helps a lot when refactoring and avoid some mistake like typo. 
 * `React` & `Mobx` Simple, popular and flexible front-end libs.
+* `typestyle` A simple and high performance css-in-js solution, works great with TypeScript.
 * `jest` An easy way to test js modules.
 * `Storybook` To co-work and test front-end components.
 * `spectron` For electron e2e testing.
