@@ -15,6 +15,7 @@
 ### Core dependencies
 * `React` 16+
 * `Mobx` 6+
+* `Next.js` v11
 
 ### Scripts
 * `test:main` test main-side modules
@@ -24,10 +25,13 @@
 * `test:e2e` e2e test with a runnable app  
 * `dev:main` run webpack main packer in development mode
 * `dev:render` run webpack render packer in development mode
+* `dev:web` run website dev server
 * `pack:main` run webpack main packer in production mode
 * `pack:render` run webpack render packer in production mode
 * `build:app` build application
+* `build:web` build website
 * `publish:app` publish application to cloud storage
+* `run:web` run website
 
 ### CI/CD
 CI/CD is on GitHub action, hook with master tag `xxxx.xx.xx`.
@@ -48,6 +52,7 @@ Normal git rule, `master` and `dev` branch, fork a feature branch and rebase it 
 ## Structure
 You can find the document in each folder.
 
+* [`/web`](/web) Website root.
 * [`/main`](/main) Main side modules.
 * [`/render`](/render) Render side modules.
 * [`/native`](/native) Native modules.
