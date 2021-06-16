@@ -17,8 +17,10 @@
 * `Mobx` 6+
 
 ### Scripts
-* `test:main` test main-side codes
-* `test:render` test render-side codes
+* `test:main` test main-side modules
+* `test:render` test render-side modules
+* `test:common` test common modules
+* `test:native` test native modules
 * `test:e2e` e2e test with a runnable app  
 * `dev:main` run webpack main packer in development mode
 * `dev:render` run webpack render packer in development mode
@@ -40,6 +42,19 @@ Sub version means user can reload the render-side js code to update, without dow
   
 So, the version number looks like: `2020.1.3`, `2021.4.12`, etc.
 
-### Structure
+## Structure
+You can find the document in each folder.
+
+* [`/main`](/main) Main side modules.
+* [`/render`](/render) Render side modules.
+* [`/native`](/native) Native modules.
+* [`/common`](/common) Common modules, can run in both render side and main side.
+* [`/scripts`](/scripts) Helper scripts (like publish to cloud) here.
+* [`/assets`](/assets) Assets used in project.
+
+Following folders are auto generated and should not in git.
+
+* `/build` Electron builder output
+* `/packed` Webpack dist
 
 ## Todo
