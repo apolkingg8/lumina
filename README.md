@@ -69,4 +69,12 @@ Some simple rules here:
 
 There is a [simple example here](/common/example.ts). All the logs would be saved in the [BigQuery]() storage, so we can query and debug them without customer's help.
 
+## Design choices
+Why I choose these stacks.
+
+* `Electron` Electron is the most easy and popular way to build a cross-platform desktop application with beautiful UI.
+`React-Native-Windows/OSX` is not good enough, `PWA` can not have native lib access, and other native solution like `Qt` is hard to build modern UI. 
+* `TypeScript` We need strong type support to build a long-term project. It helps a lot when refactoring and avoid some mistake like typo. 
+* `React` & `Mobx` Simple, popular and flexible front-end libs.
+
 ## Todo
